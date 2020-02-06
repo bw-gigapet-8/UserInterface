@@ -58,7 +58,8 @@
       .fixedNavBar {
             overflow: hidden;
             display: flex;
-            justify-content: center;
+            
+            justify-content: space-around;
             //background-color: @wild-sand;// #333;
             position: fixed;
             color: @first-blue;
@@ -80,15 +81,29 @@
               font-family: 'Montserrat', sans-serif;
               @media @tablet{
                 font-size: 2.2rem;
+                img  {
+                  height: 90%;
+                  width: 90%;
+                }
               }
               @media @mobile {
                 font-size: 1.8rem;
+                img  {
+                  height: 18px;
+                  width: 18px;
+                }
               }
             }
             a:hover {
               background: #ddd;
               color: black;
             }
+            /*
+            .logo{
+              width: 100%;
+              height: auto;
+            }
+            */
             
           }//fixedNavBar
         

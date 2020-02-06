@@ -20,9 +20,32 @@ h1, h2, h3, h4, h5 {
  // font-family: 'Russo One', sans-serif;
  font-family: 'Montserrat', sans-serif;
  background-color: @first-blue;
- color: white
+ color: white;
   //color: @header-font-color;
 }
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px @first-light-blue, 0 0 5px @first-blue;
+  animation: example 5s ease 2s infinite alternate;
+  font-size: 4rem;
+}
+@keyframes example{
+  0%   {background-color:@first-blue; color: white; left:0px; top:0px;}
+  12.5%   {background-color:white; color: @first-blue; left:0px; top:0px;}
+  25%  {background-color:@first-gray; color:@first-blue;left:200px; top:0px;}
+  37.5%  {background-color:@first-light-blue; color: white; left:200px; top:200px;}
+  50%   {background-color:white; color: @first-light-blue; left:0px; top:0px;}
+  62.5%  {background-color:@first-blue; color:@first-light-blue; left:0px; top:200px;}
+  75% {background-color:@first-light-blue; color: @first-blue; left:0px; top:0px;}
+  87.5%   {background-color:white; color: @first-light-blue; left:0px; top:0px;}
+  100%   {background-color:@first-blue; color: @first-light-blue; left:0px; top:0px;}
+
+  //@first-blue: #4864E6;
+//@first-gray: #F2F4FF;
+//@first-light-blue: #4BD6F2;
+}
+
+
 
 h2 {
   font-size: 3.2rem;
