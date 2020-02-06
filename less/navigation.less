@@ -1,0 +1,151 @@
+// Navigation code here for header & navigation/ button
+
+//@nav-bg: @wild-sand;
+//@nav-font: @river-bend;
+//@nav-border: @sea-shell;
+
+.fixedNavBar {
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-color: @wild-sand;// #333;
+  position: fixed;
+  top: 0;
+  //width: 70%;
+  //margin-left: 15%;
+
+  
+  //z-index: 1000;
+
+  a {
+    float: left;
+    
+    //color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   font-size: 3rem;
+   font-family: Montserrat, Times, serif;
+   &:hover {
+    background: #ddd;
+    color: black;
+  }
+  }
+
+  
+}
+
+
+
+/* header {
+    //border: solid;
+    height: 60vh;
+    background-position: center;
+    //background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: #EEEEEE;
+    color: #6C5659;
+  }
+*/
+  //header div nav {
+
+.heading {
+  display:flex;
+  flex-direction: column;
+  padding: 2%;
+  margin-top: 4%;
+  .heading-text{
+      display: flex;
+      flex-direction: column;
+      padding: 1%;
+      justify-content: center;
+    
+    //justify-content: space-around;
+    //padding: 5%;
+    //margin-left: 30%;
+    
+    /// @media (max-width: 500px){
+    ///    flex-direction: column;
+    /// }
+      h2{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        @media (max-width: 500px){
+          
+          padding-top: 10%;
+        }
+      } 
+  }
+  nav{
+        display: flex;
+        justify-content: space-around;
+        padding: 5%;
+        margin-left: 20%;
+        width: 70%;
+      
+      a {
+        //display: flex;
+       // flex-direction: row;
+        font-size: 1.8rem;
+        color: #6C5659;
+        //display: flex;
+        //justify-content: space-around;
+        //padding: 5%;
+        //margin-left: 28%;
+        //width: 100px;
+        @media (max-width: 500px){
+          font-size: 1.2rem;
+        }
+        &:hover {
+          background: #ddd;
+          color: black;
+        }
+      }
+  } // end of nav
+
+  //.heading-box {
+  //  margin-left: 5%;
+  //  text-align: right;
+  //  padding: 0 5%;
+  // }
+  .heading-image1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    //justify-content: center;
+    //width: 600px;
+    //height: 150px;
+    //background-image: url('../img/main-header.png');
+    //background-size: cover;
+    img {
+      
+      .mabo(10px);
+      width: 95%;
+      
+    }
+  }
+  //h1 {
+  //  display: flex;
+  //  font-size: 5rem;
+  //  margin-left: 5%;
+  //}
+}
+
+  .button  {
+    display: flex;
+    background-color: @btn-bg-color;
+    color: @porcelain;
+    border-radius: 5px;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+  }
+
+
+  /* end of  Navigation code here for header & navigation/ button */
