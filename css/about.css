@@ -250,3 +250,50 @@ footer{
         width: 100%;
     }
 }
+
+
+/* // Color Vars
+@first-blue: #4864E6;
+@first-gray: #F2F4FF;
+@first-light-blue: #4BD6F2;
+*/
+.music div {
+    width: 20px;
+  height: 20px;
+  background-color: red;
+  position: relative;
+  left: 200px;
+    
+
+    background-color: white;
+    animation: example2 2s ease infinite alternate;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px #4BD6F2, 0 0 5px #4864E6;
+  
+   font-size: 4rem; */
+   margin-bottom: 210px;
+  }
+  @keyframes example2{
+    0%   {background-color:red; left:0px; top:0px;}
+    12.5%  {background-color:yellow; left:200px; top:0px;}
+    25%  {background-color:goldenrod; left:200px; top:100px;}
+    35.5%  {background-color:greenyellow; left:100px; top:100px;}
+    45%  {background-color:darkred; left:200px; top:200px;}
+    50%  {background-color:blue; left:300px; top:100px;}
+    55%  {background-color:lightcoral; left:0px; top:100px;}
+    62.5%  {background-color:sandybrown; left:0px; top:200px;}
+    75%  {background-color:indigo; left:0px; top:200px;}
+    87.5%  {background-color:violet; left:100px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  /*
+    0%   { color: white; left:0px; top:0px;}
+    12.5%   { font-size: 5rem;background-color: #4BD6F2; left:100px; top:0px;}
+    25%  { background-color:#5864E6;left:200px; top:0px;}
+    37.5%  {background-color:#8864E6; color: white; left:200px; top:200px;}
+    50%   { font-size: 7rem;background-color: #4BD6F2; left:100px; top:100px;}
+    62.5%  {background-color:#9864E6; color:#4BD6F2; left:0px; top:200px;}
+    75% {background-color:#A864EF; color: #4864E6; left:100px; top:100px;}
+    87.5%   {font-size: 5rem;color: #4BD6F2; left:200px; top:0px;}
+    100%   {font-size: 4rem;background-color:#7864E6; color: #4BD6F2; left:0px; top:0px;}
+    }
+    */
